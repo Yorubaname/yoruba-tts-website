@@ -216,7 +216,7 @@ $(function() {
       var maxLength = 30;
       var trimmedText =
         text.length > maxLength ? text.substring(0, maxLength) + "..." : text;
-      var url = "https://gentle-falls-68008.herokuapp.com/api/v1/names/" + text;
+      var url = "https://tts.yorubaname.com/api/v1/names/" + text;
       $("#audio-box").html(
         "<audio controls autoplay oncanplay='myOnCanPlayThroughFunction()'> \
         <source src='" +
